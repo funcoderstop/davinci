@@ -1,0 +1,98 @@
+body {
+	direction: rtl;
+	text-align: right;
+}
+.site-header > div,
+.s-single-post .row,
+.blog-template .row,
+.s-content-home .row,
+.slider-home,
+.s-default-page .row,
+.footer-bot {
+    direction: ltr;
+}
+
+form.search-form,
+.blog-template article,
+.pagination,
+.single-post article,
+.detail-blog, .page-content {
+    direction: rtl;
+}
+button.search-submit {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input[type="search"].search-input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+blockquote {
+    border-left: none;
+    border-right: 4px solid #051e83;
+}
+table {
+    text-align: right;
+}
+.wpcf7-form {
+    direction: rtl;
+}
+.wpcf7-form .wpcf7-form-control.wpcf7-radio .wpcf7-list-item input,
+.wpcf7-form .wpcf7-form-control.wpcf7-checkbox input {
+    margin: 0 0 0 10px;
+}
+.wpcf7-form .wpcf7-form-control.wpcf7-select {
+	background-position: 15px center;
+}
+.ajax-loader {
+    position: absolute;
+}
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+    right: 0;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+    right: 100%;
+    left: unset;
+}
+
+
+/*==========  Desktop First  ==========*/
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+	#primary-menu a {text-align: right;}
+	.main-navigation li.menu-item-has-children > i {left: 0; right: unset;}
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
